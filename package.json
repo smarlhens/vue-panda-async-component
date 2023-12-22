@@ -1,0 +1,29 @@
+{
+  "name": "vue-panda-async-component",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "typecheck": "vue-tsc --build --force",
+    "prettier:check": "prettier --check \"./**/*.{json,vue,ts,md,css,yml,cjs}\"",
+    "prettier:write": "prettier --write \"./**/*.{json,vue,ts,md,css,yml,cjs}\""
+  },
+  "dependencies": {
+    "vue": "3.3.13"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "0.22.1",
+    "@tsconfig/node18": "18.2.2",
+    "@types/node": "18.19.3",
+    "@vitejs/plugin-vue": "4.5.2",
+    "@vue/tsconfig": "0.5.1",
+    "prettier": "3.1.1",
+    "typescript": "5.3.3",
+    "vite": "5.0.10",
+    "vue-tsc": "1.8.26"
+  }
+}
